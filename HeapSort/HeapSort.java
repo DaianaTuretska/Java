@@ -30,7 +30,7 @@ public class HeapSort {
 			heap(arr, n, biggest);
 		}
 	}
-	static void printArray(int arr[])
+	static void outputArray(int arr[])
 	{
 		int n = arr.length;
 		for (int i = 0; i < n; ++i)
@@ -42,13 +42,14 @@ public class HeapSort {
 	{
 		int arr[] = { 22, 11, 18, 8, 9, 13 };
 		System.out.println("Array:");
-		printArray(arr);
+		outputArray(arr);
 		int n = arr.length;
 
-		HeapSort ob = new HeapSort();
-		ob.sort(arr);
+		HeapSort object = new HeapSort();
+		object.sort(arr);
 
 		System.out.println("Sorted array :");
-		printArray(arr);
+		output
+			Array(arr);
 	}
 }
